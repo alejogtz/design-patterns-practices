@@ -1,0 +1,21 @@
+*.class
+/Paises
+/02Ing de Soft Un Enfoque Practico.pdf
+/03 StrategyPattern.zip
+/Apuntes de clase.txt
+/codigoEnClase/
+/Comportamiento variable - Alejo Gutierrez Reyes.rtf
+/Practica 1 - Alejo Gutierrez Reyes/
+/Practica 2 - Alejo Gutierrez Reyes/
+/Practica1/
+/Practicas/
+/Tarea.txt
+/comportamiento variable.txt
+
+
+03 StrategyPattern/build/*
+03 StrategyPattern/dist/*
+03 StrategyPattern/nbproject/*
+03 StrategyPattern/test/
+03 StrategyPattern/build.xml
+03 StrategyPattern/manifest.mf
