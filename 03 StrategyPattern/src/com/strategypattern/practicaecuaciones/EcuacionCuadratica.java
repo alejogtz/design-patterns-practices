@@ -17,7 +17,7 @@ public class EcuacionCuadratica extends Ecuacion{
 
     @Override
     public void mostrar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
     
 }

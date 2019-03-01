@@ -36,14 +36,8 @@ public class SolucionCuadratica implements Solucion{
             
             return new double[] {-b/(2*a),0};
             // System.out.println("Roots are " + -b/(2*a));
-        }
-        else{            
-            System.out.println("Roots are " + -b/(2*a) + "+i" + 
-                                Math.sqrt(-determinant)/(2*a) + " and "
-                                + -b/(2*a) + "-i" + Math.sqrt(-determinant)/(2*a));
-            
-            return new double[]{0,0,0};
-        }
+        }        
+        return null;
     }
     
 }
