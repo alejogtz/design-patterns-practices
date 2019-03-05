@@ -19,9 +19,9 @@ public class EcuacionLineal extends Ecuacion{
     public void mostrar() {
         double [] values = this.solucion.solucion(coeficientes);
         
-        for (int i = 0; i < values.length; i++){
-            System.out.println("[X{"+ i +"}] : " + values[i]);
-        }
+        double raiz = values[0];
+        
+        System.out.println("Raiz X = " + raiz);
     }
     
 }

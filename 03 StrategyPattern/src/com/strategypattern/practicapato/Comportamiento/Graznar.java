@@ -3,14 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.strategypattern.practicaecuaciones;
+package com.strategypattern.practicapato.Comportamiento;
 
 /**
  *
- * @author Alessio
+ * @author carlosA
  */
-public interface Solucion {
-    public double [] solucion(double [] coef);
-    
-    
+public interface Graznar {
+    public void graznar();
 }

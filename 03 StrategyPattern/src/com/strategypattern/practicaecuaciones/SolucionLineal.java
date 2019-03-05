@@ -14,12 +14,24 @@ public class SolucionLineal implements Solucion{
 
     @Override
     public double[] solucion(double[] coef) {
-        double n = 0.0;
-        if (coef != null)
-            for (int i = 0; i < coef.length; i++){
-                n = n + coef[i];
-            }
-        return new double[] {n, 0,0};
+        // Ecuacion de la forma Ax + B
+        
+        // So, coef[0] corresponde a A
+        // and coef[1] corresponde a B
+        // Se resulve que x = B/A si B no es trivial
+        
+        double a = coef[0];
+        double b = coef[1];
+        
+        double raiz = 0.0;
+        
+        if (b != 0) raiz = -b/a;
+        else raiz = 0;
+        
+        return new double[] {raiz};
     }
     
+    
+    
 }
+

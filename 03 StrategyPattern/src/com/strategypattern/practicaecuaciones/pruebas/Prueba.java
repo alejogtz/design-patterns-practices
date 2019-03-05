@@ -15,11 +15,24 @@ public class Prueba {
     
     
     public static void main (String [] args){
-        Ecuacion ecuacion = new EcuacionLineal(new double[] {1,2,3,4,5});
-        Solucion solucion = new SolucionLineal();
-        ecuacion.setSolucionEstrategia(solucion);
+        // Cliente
         
+        // Ejemplo 1
+        Ecuacion ecuacion = new EcuacionLineal(new double[] {1,-10});        
+        Solucion solucion = new SolucionLineal();
+        
+        ecuacion.setSolucionEstrategia(solucion);        
         ecuacion.mostrar();
+        
+        // Ejemplo 2
+        Ecuacion ec2 = new EcuacionCuadratica(new double []{1,2,3});        
+        Solucion s2 = new SolucionCuadratica();
+        
+        ec2.setSolucionEstrategia(s2);        
+        ec2.mostrar();
+        
+        //s2.solucion(new double []{1,2,3});
+        
     }
             
             
